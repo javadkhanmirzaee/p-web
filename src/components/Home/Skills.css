@@ -1,0 +1,19 @@
+.tech-stack{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tech-stack p{
+    font-size: 18px;
+    border-right: 2px solid #999;
+}
+.skils{
+    padding: 0 20px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.skils:hover{
+    transform: translateY(-10px);
+}

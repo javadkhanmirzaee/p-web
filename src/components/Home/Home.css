@@ -1,0 +1,32 @@
+.home{
+    padding-top: 250px;
+}
+
+.blob{
+    background: url('https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    width: 310px;
+    height: 310px;
+    background-size: cover;
+    background-position: right;
+    border: 2px solid #000;
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+}
+
+.home-icon{
+    transition: all .2s ease-in;
+}
+.home-icon:hover{
+    color: #147efb;
+    cursor: pointer;
+}
+
+
+@keyframes animate {
+    0% , 100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+}

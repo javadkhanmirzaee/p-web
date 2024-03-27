@@ -1,0 +1,19 @@
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.nav{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.navbar-brand{
+    font-size: 25px !important;
+}
+
+.link-nav{
+    font-size: 18px !important;
+}
+
+.link-nav:hover{
+    color: #147efb !important;
+}
