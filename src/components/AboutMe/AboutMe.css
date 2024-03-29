@@ -1,0 +1,22 @@
+.about-me{
+    background-color: #fff;
+    padding: 200px 0;
+}
+
+.about-img{
+    width: 400px;
+    height: 350px;
+}
+
+.p-text{
+    width: 400px;
+}
+
+.title-about{
+    color: #147efb;
+}
+
+.about-content{
+    font-size: 18px;
+    color:#767676;
+}
