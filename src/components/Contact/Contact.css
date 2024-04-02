@@ -1,0 +1,46 @@
+.contact{
+    padding: 150px 0;
+    background-color: #fff;
+}
+
+.header-content{
+    color: #147efb;
+}
+
+.content-text{
+    color: #767676;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.content-text:hover{
+    color: #147efb;
+}
+
+.text-icon-content{
+    font-size: 18px;
+}
+
+
+.box-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
+    margin:5px 20px 0px 0;
+}
+
+.box-mail{
+    margin-left: 0px;
+}
+
+.content-location{
+    margin-right: 115px;
+}
+
+@media (min-width:1200px) {
+    .box-mail{
+        margin-left: 150px;
+    }
+}
